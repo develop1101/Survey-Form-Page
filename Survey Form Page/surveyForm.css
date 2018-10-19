@@ -1,0 +1,75 @@
+html, body {
+  background-color: #99ff66;
+  font-family: Helvetica;
+  color: #081a00;
+  text-align: center;
+  margin: 20px auto;
+  min-width: 350px;
+}
+#forms {
+  background-color: #fff;
+  margin: 0 auto;
+  width: 80%;
+  padding: 20px;
+}
+h1 {
+  font-size: 2.5em;
+  margin: 40px auto;
+  text-shadow: 2px 2px #fff;
+}
+.labels {
+  
+  display: inline-block;
+  text-align: right;
+  width: 40%;
+  height: 20px;
+  padding: 20px;
+  padding-right: 30px;
+  margin: 10px auto;
+}
+.inputs {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+}
+input[type="text"], input[type="number"], input[type="email"]{
+  border: 2px solid #3dcc00;
+}
+.boxes {
+  height: 20px;
+  width: 300px;
+  padding: 10px;
+}
+
+.dropdown {
+  border: 2px solid #3dcc00;
+  height: 40px;
+  width: 325px;
+}
+.choose-radio {
+  border: 2px solid #3dcc00;
+  padding: 10px;
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 5px;
+}
+textarea {
+  border: 2px solid #3dcc00;
+  border-radius: 5px;
+  width: 300px;
+  height: 100px;
+  padding: 10px;
+  margin: 20px auto;
+}
+#submit {
+  border: 2px solid #3dcc00;
+  width: 150px;
+  height: 50px;
+  background-color: #99ff66;
+  margin: 20px auto;
+  border-radius: 5px;
+  font-size: 1.5em;
+  color: #fff;
+  text-shadow: 1.5px 1.5px #081a00;
+  text-transform: uppercase;
+}
